@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment01</string>
+    <string name="c_to_f_button">C to F</string>
+    <string name="f_to_c_button">F to C</string>
+    <string name="reset_button">Reset</string>
+    <string name="result_text" />
+</resources>

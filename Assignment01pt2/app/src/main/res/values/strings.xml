@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment01pt2</string>
+    <string name="c_to_f">C to F</string>
+    <string name="f_to_c">F to C</string>
+    <string name="reset">Reset</string>
+    <string name="calculate">Calculate</string>
+</resources>
