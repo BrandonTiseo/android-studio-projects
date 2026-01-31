@@ -72,7 +72,7 @@ public class EditUserActivity extends AppCompatActivity {
                     User user = new User(name, email, role);
                     Intent intent = new Intent(EditUserActivity.this, ProfileActivity.class);
                     intent.putExtra("user", user);
-                    startActivity(intent);
+                    setResult(RESULT_OK, intent);
                     finish();
                 } catch (Exception e){
                     Toast.makeText(EditUserActivity.this, "Invalid input, please make sure all fields are filled.", Toast.LENGTH_SHORT).show();
